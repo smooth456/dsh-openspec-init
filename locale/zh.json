@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenSpec 初始化",
+    "description": "在输入框下方添加 OpenSpec 初始化按钮：检查 openspec 是否安装、当前工作区是否已初始化，然后执行 openspec init --tools dsh。"
+  }
+}

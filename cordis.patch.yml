@@ -1,0 +1,9 @@
+# The dsh-openspec-init bundle.
+#
+# One Host row: it registers the `/openspec-init` command, which owns the whole
+# flow (probe the CLI, inspect the workspace, run `openspec init --tools dsh`).
+# The Client half declared by `dsh.client` in package.json renders the button
+# and calls that same command, so both entry points share one implementation.
+- insert:
+    - id: dsh-openspec-init
+      name: dsh-openspec-init

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "OpenSpec Init",
+    "description": "Adds an OpenSpec init button under the composer that checks the openspec CLI and this workspace, then runs openspec init --tools dsh."
+  }
+}
